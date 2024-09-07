@@ -36,3 +36,26 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+
+## Answer to Average Case Time Complexity
+
+I believe that the the average case for insertion sort is $\Theta(n^2)$.
+When the algorithm runs, it is gaurunteed to go through the array at
+least once (time complexity of n). In the average case, it is common to
+go through at least part of the array, where some cases it might take 
+<ins>more</ins> operations to sort an element, and where other cases 
+it might take <ins>less</ins> operations to sort an element. Now consider
+that when more elements are added, the time complexity will not grow at
+a linear rate, it'll resemble more of a growth of a quadratic formula. 
+Therefore, the average time complexity of insersion sort is $\Theta(n^2)$.
+
+
+# Sources
+
+- None, I did this assignment all on my own!
+
+
+# Plagiarism Acknowledgement
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
